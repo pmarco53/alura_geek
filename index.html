@@ -8,16 +8,33 @@
   </head>
   <body>
     <header>
-      <h1>Bem-vindo ao AluraGeek</h1>
+      <img class="header__img" src="./imagens/image1.png" />
+      <h1>Alura Geek</h1>
     </header>
     <main>
-      <section>
-        <h2>Sobre Nós</h2>
-        <p>Informações sobre a AluraGeek.</p>
+      <section class="principal">
+        <div>
+          <h1 class="produtos__titulo">Meus Produtos:</h1>
+          <ul class="card" data-lista>
+            
+          </ul>
+        </div>
+        <div class="formulario"> 
+          <h1 class="formulario__titulo">Adicionar Produto:</h1>
+          <form class="formulario__campos" data-form>
+            <input type="text" id="nome" name="nome" placeholder="nome..." required />
+            <input type="number" id="valor" name="valor" placeholder="valor..." required />
+            <input type="text" id="imagem" name="imagem" placeholder="imagem..." required />
+            <div class="botoes">
+              <button class="guardar">Guardar</button>
+              <button class="limpar">Limpar</button>
+            </div>
+        </div>
       </section>
     </main>
     <footer>
-      <p>&copy; 2023 AluraGeek. Todos os direitos reservados.</p>
+      <p>&copy; 2024 AluraGeek. Todos os direitos reservados.</p>
     </footer>
+    <script src="./js/mostraProdutos.js" type="module"></script>
   </body>
 </html>

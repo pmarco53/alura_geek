@@ -1,0 +1,22 @@
+{
+  "produtos": [
+    {
+      "nome": "Iphone16",
+      "valor": "80.0",
+      "imagem": "https://media.istockphoto.com/id/1356372494/pt/foto/newly-released-iphone-13-pro-mockup-set-with-back-and-front-angles.jpg?s=612x612&w=0&k=20&c=n8FK1dL6yehoe2lsQiznjlsbWGLhkZqowpe37GwklRg=",
+      "id": 1
+    },
+    {
+      "nome": "Iphone15",
+      "valor": "10.0",
+      "imagem": "https://media.istockphoto.com/id/1356372494/pt/foto/newly-released-iphone-13-pro-mockup-set-with-back-and-front-angles.jpg?s=612x612&w=0&k=20&c=n8FK1dL6yehoe2lsQiznjlsbWGLhkZqowpe37GwklRg=",
+      "id": 2
+    },
+    {
+      "nome": "Iphone14",
+      "valor": "180.0",
+      "imagem": "https://media.istockphoto.com/id/1356372494/pt/foto/newly-released-iphone-13-pro-mockup-set-with-back-and-front-angles.jpg?s=612x612&w=0&k=20&c=n8FK1dL6yehoe2lsQiznjlsbWGLhkZqowpe37GwklRg=",
+      "id": 3
+    }
+  ]
+}
