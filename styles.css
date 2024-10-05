@@ -133,3 +133,9 @@ input {
 p {
   white-space: nowrap;
 }
+
+.card {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+}
