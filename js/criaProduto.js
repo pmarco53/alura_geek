@@ -1,6 +1,8 @@
 import { conectApi } from './conectApi.js'
 
 const formulario = document.querySelector('[data-form]')
+const btnLimpar = document.querySelector('button.limpar[type="reset"]')
+
 //console.log(formulario)
 
 async function criaProduto(evento) {
@@ -21,4 +23,11 @@ async function criaProduto(evento) {
   }
 }
 
+function limpaCampos() {
+  document.querySelector('[data-nome]').value = ''
+  document.querySelector('[data-valor]').value = ''
+  document.querySelector('[data-imagem]').value = ''
+}
+
 formulario.addEventListener('submit', (evento) => criaProduto(evento))
+btnLimpar.addEventListener('reset', (evento) => limpaCampos())

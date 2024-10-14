@@ -133,12 +133,13 @@ input {
   align-items: center;
   gap: 30px;
   height: 50px;
-  width: 200px;
+  width: 250px;
   font-size: 25px;
 }
 
 .card-container--value p {
-  width: 170px;
+  width: 200px;
+  font-size: 12px;
 }
 
 .card-container--info {
