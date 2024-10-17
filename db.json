@@ -7,6 +7,12 @@
       "id": 1
     },
     {
+      "nome": "BMW X5",
+      "valor": "1000.00",
+      "imagem": "https://cdn.motor1.com/images/mgl/1ZkqgW/s2/2023-bmw-x5.webp",
+      "id": 2
+    },
+    {
       "nome": "Playstation 5",
       "valor": "800.00",
       "imagem": "https://www.adrenaline.com.br/wp-content/uploads/2024/09/PlayStation-5-Pro-confira-todos-os-detalhes-sobre-o-novo-console-da-Sony-912x569.webp",

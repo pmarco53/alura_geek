@@ -12,7 +12,7 @@ export default function constroiCard(nome, valor, imagem, id) {
                                 <p>${nome}</p>
                                 <div class="card-container--value">
                                     <p>Valor: $${valor}</p>
-                                    <img class="icone" src="./imagens/lixeira.png" alt="Ícono de eliminación" id=${id}>
+                                    <img class="icone open-modal-btn" src="./imagens/lixeira.png" alt="Ícono de eliminación" id=${id}>
                                 </div>
                             </div>`
 
